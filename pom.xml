@@ -20,4 +20,17 @@
 	<version>7.2.0.Final</version>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+           <source>1.6</source>
+           <target>1.6</target>
+           <outputEncoding>UTF-8</outputEncoding>
+           <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
